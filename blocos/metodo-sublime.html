@@ -1,0 +1,54 @@
+<section class="blk-sub" id="metodo">
+  <div class="wrap blk-sub__in">
+    <div class="blk-sub__txt">
+      <p class="blk-sub__eyebrow" data-reveal>Harmonização · Dra. Lorena Bertolini</p>
+      <h2 class="blk-sub__titulo" data-reveal>Método Sublime</h2>
+      <p class="blk-sub__lead" data-acende>Uma boa harmonização não faz você parecer outra pessoa. O método que a Dra. Lorena criou, e que ela também ensina em aula, parte de uma regra simples: o rosto rejuvenesce, e você continua se reconhecendo no espelho.</p>
+      <figure class="blk-sub__foto" data-reveal>
+        <!--foto:midia/f/sala-mesa.jpg|Sala de avaliação da OdontoHarmoniza, com mesa de mármore e prateleiras de madeira-->
+      </figure>
+    </div>
+    <ol class="blk-sub__lista">
+      <li class="blk-sub__card" data-reveal style="--d:0ms">
+        <span class="blk-sub__num">01</span>
+        <span class="blk-sub__ico"><!--icone:rosto--></span>
+        <h3>O rosto inteiro primeiro</h3>
+        <p>Antes de qualquer agulha, a avaliação mede as proporções da face, olha os sinais de envelhecimento e escuta o que incomoda você. O plano sai daí, não de um pacote pronto.</p>
+      </li>
+      <li class="blk-sub__card" data-reveal style="--d:90ms">
+        <span class="blk-sub__num">02</span>
+        <span class="blk-sub__ico"><!--icone:agenda--></span>
+        <h3>Aos poucos, no seu tempo</h3>
+        <p>O tratamento anda em etapas. Toxina, preenchimento e bioestimulador entram quando fazem sentido, respeitando o limite de cada rosto e de cada pessoa.</p>
+      </li>
+      <li class="blk-sub__card" data-reveal style="--d:180ms">
+        <span class="blk-sub__num">03</span>
+        <span class="blk-sub__ico"><!--icone:check--></span>
+        <h3>Sem apagar a identidade</h3>
+        <p>O objetivo é leveza: traços mais descansados e o contorno mais definido, sem o rosto padronizado que assusta quem nunca fez harmonização.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-sub{padding-block:var(--sp-section);background:var(--bg-2);color:var(--ink)}
+.blk-sub__in{display:grid;gap:var(--sp-5)}
+.blk-sub__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-sub__titulo{margin:var(--sp-2) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--brand)}
+.blk-sub__lead{margin:var(--sp-3) 0 0;max-width:34rem;font-size:1.1rem;line-height:1.65;color:var(--ink)}
+.blk-sub__foto{margin:var(--sp-4) 0 0;display:none}
+.blk-sub__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 60%;border-radius:var(--r-lg)}
+.blk-sub__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-sub__card{position:relative;padding:var(--sp-4);background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg)}
+.blk-sub__num{position:absolute;top:var(--sp-3);right:var(--sp-4);font-family:var(--f-display);font-size:1rem;letter-spacing:.08em;color:var(--ink-dim)}
+.blk-sub__ico{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--pulse)}
+.blk-sub__ico svg{width:100%;height:100%}
+.blk-sub__card h3{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-weight:500;font-size:1.45rem;color:var(--ink)}
+.blk-sub__card p{margin:var(--sp-2) 0 0;line-height:1.6;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-sub__in{grid-template-columns:5fr 6fr;gap:5rem;align-items:start}
+  .blk-sub__txt{position:sticky;top:7rem}
+  .blk-sub__foto{display:block}
+}
+</style>

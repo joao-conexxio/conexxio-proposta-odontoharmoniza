@@ -1,0 +1,287 @@
+{
+  "slug": "odontoharmoniza",
+  "negocio": {
+    "nome": "Clínica OdontoHarmoniza",
+    "logo": "brand/logo-lockup.png",
+    "whatsapp": "5531972331375",
+    "unidades": [
+      {
+        "bairro": "Fernão Dias · Belo Horizonte",
+        "endereco": "R. Maria Ferreira da Silva, 413 · Fernão Dias · Belo Horizonte – MG · 31920-350",
+        "telefone": "(31) 97233-1375",
+        "horario": "Segunda a sexta, das 10h às 19h · sábado, das 9h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#2E4976",
+    "brand2": "#253A5E",
+    "ink": "#1B2340",
+    "bg": "#FFFFFF",
+    "pulse": "#B07D45",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "EB Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Método Sublime",
+            "href": "#metodo"
+          },
+          {
+            "texto": "Lentes",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Fernão Dias · BH",
+        "h1": "Sorriso e rosto, em harmonia",
+        "lead": "Odontologia completa e harmonização orofacial no mesmo endereço. Da limpeza às lentes de porcelana, sempre com avaliação antes da decisão.",
+        "cta": "Marcar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Fale com a recepção",
+        "imagem": "midia/f/dra-lorena.jpg",
+        "imagemAlt": "Dra. Lorena Bertolini na recepção da OdontoHarmoniza, em frente ao painel de mármore com o logo da clínica",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Lentes de porcelana",
+          "Harmonização orofacial",
+          "Implantes",
+          "Ortodontia",
+          "Lipo de papada",
+          "Odontopediatria",
+          "Clareamento",
+          "Periodontia"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Quem já sentou na cadeira",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "153",
+            "rotulo": "avaliações de pacientes",
+            "contar": 153
+          },
+          {
+            "valor": "8",
+            "rotulo": "áreas da odontologia e da face",
+            "contar": 8
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias por semana, com sábado de manhã",
+            "contar": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "O dente e o rosto se planejam juntos.",
+        "texto": [
+          "Na OdontoHarmoniza, quem cuida do seu sorriso e quem cuida do seu rosto atende debaixo do mesmo teto, no Fernão Dias. Isso muda o planejamento: a lente de porcelana é desenhada olhando o lábio, e o lábio olhando o sorriso.",
+          "A equipe reúne dentistas de cada especialidade, da criança que vai ao dentista pela primeira vez a quem perdeu todos os dentes e procura uma prótese fixa."
+        ],
+        "imagem": "midia/f/sala-tv.jpg",
+        "imagemAlt": "Consultório da OdontoHarmoniza com cadeira odontológica, bancada de mármore e TV no teto"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Cada caso começa por uma avaliação. Valores e prazos saem dela, porque cada sorriso e cada rosto pedem um plano diferente.",
+        "itens": [
+          {
+            "nome": "Lentes de contato em porcelana",
+            "descricao": "Lâminas finas de porcelana coladas na frente dos dentes para ajustar cor, formato e tamanho, com desgaste mínimo. A durabilidade média fica em torno de 15 anos.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Harmonização orofacial",
+            "descricao": "Toxina botulínica, preenchimento com ácido hialurônico, bioestimuladores de colágeno e fios faciais, combinados pelo Método Sublime para rejuvenescer sem mudar quem você é.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Lipo de papada e bichectomia",
+            "descricao": "Para a gordura abaixo do queixo que não sai com dieta: versão enzimática, em sessões, ou cirúrgica, em uma sessão. A bichectomia afina o contorno e ajuda quem morde a bochecha.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Implantes e prótese protocolo",
+            "descricao": "Do dente unitário à prótese fixa sobre implantes para quem perdeu todos os dentes, com mais firmeza para sorrir e mastigar do que a dentadura removível.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Ortodontia",
+            "descricao": "Aparelho fixo metálico, estético de porcelana ou safira, autoligado e alinhadores transparentes, para crianças, adolescentes e adultos.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Gengiva e sorriso gengival",
+            "descricao": "Tratamento de gengivite e periodontite, gengivoplastia, aumento de coroa, enxerto gengival e reposicionamento labial para quem mostra muita gengiva ao sorrir.",
+            "icone": "check"
+          },
+          {
+            "nome": "Clínico geral e canal",
+            "descricao": "Limpeza, restaurações, extrações e tratamento de canal. A base que mantém o resto do sorriso de pé.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Odontopediatria",
+            "descricao": "Atendimento de bebês, crianças e adolescentes, com foco em prevenção para que cheguem à vida adulta com a boca saudável.",
+            "icone": "bebe"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/metodo-sublime.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Lentes de porcelana: você vê antes de decidir",
+        "lead": "O caminho das lentes de contato dental na OdontoHarmoniza, do primeiro estudo à colagem.",
+        "itens": [
+          {
+            "titulo": "Estudo do caso",
+            "texto": "Radiografias, fotos do rosto e do sorriso e escaneamento ou moldagem dos dentes para montar o projeto.",
+            "icone": "microscopio"
+          },
+          {
+            "titulo": "Prévia na boca",
+            "texto": "Em muitos casos, uma resina provisória aplicada sobre os seus dentes mostra o resultado antes de qualquer desgaste.",
+            "icone": "olho"
+          },
+          {
+            "titulo": "Preparo mínimo",
+            "texto": "Com cor, formato e posição combinados, os dentes recebem um desgaste pequeno. Anestesia só quando o preparo pede.",
+            "icone": "dente"
+          },
+          {
+            "titulo": "Colagem",
+            "texto": "As lentes prontas são cimentadas uma a uma, com ajuste fino de encaixe e tamanho.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas frequentes",
+        "itens": [
+          {
+            "p": "Quanto custam as lentes de contato dental?",
+            "r": "Depende do número de dentes e do estado de cada um. O valor sai na avaliação, depois do estudo do caso."
+          },
+          {
+            "p": "Dá para clarear as lentes depois?",
+            "r": "Não. A porcelana já é feita na cor escolhida, por isso a cor é decidida com calma antes da colagem."
+          },
+          {
+            "p": "A harmonização vai deixar meu rosto artificial?",
+            "r": "O Método Sublime trabalha em etapas e com doses pensadas para o seu rosto. A ideia é um rosto mais descansado, não diferente."
+          },
+          {
+            "p": "Qual a diferença entre a lipo de papada enzimática e a cirúrgica?",
+            "r": "A enzimática usa aplicações para ajudar o corpo a eliminar a gordura e pede no mínimo três sessões. A cirúrgica aspira a gordura em uma sessão só."
+          },
+          {
+            "p": "Vocês atendem crianças?",
+            "r": "Sim. A clínica tem odontopediatria para bebês, crianças e adolescentes."
+          },
+          {
+            "p": "Atendem no sábado?",
+            "r": "Sim, das 9h ao meio-dia. De segunda a sexta, das 10h às 19h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/f/consultorio-largo.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte o que incomoda no sorriso ou no rosto. A recepção marca o melhor horário para você, inclusive no sábado.",
+        "cta": "Chamar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de paciente para paciente. Todo procedimento depende de avaliação prévia.",
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Método Sublime",
+            "href": "#metodo"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    }
+  ]
+}
